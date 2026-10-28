@@ -14,7 +14,7 @@ class Tigrinho:
         self.pontos = pontos
 
     def escolha(self, numero):
-        numeroDaSorte = random.randint(1, 11)
+        numeroDaSorte = random.randint(1, 10)
         if numero == numeroDaSorte:
             self.pontos += 10
             return f"Parabéns! Você acertou o número da sorte: {numeroDaSorte}!"
